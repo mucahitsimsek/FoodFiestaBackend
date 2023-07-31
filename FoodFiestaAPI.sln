@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33829.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{E8CFFD35-6401-480D-8C6C-C3091CB431B7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FoodFiestaAPI.Domain", "Core\FoodFiestaAPI.Domain\FoodFiestaAPI.Domain.csproj", "{220C1D34-73DF-4841-87BF-82A11AB7B8EA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FoodFiestaAPI.Application", "Core\FoodFiestaAPI.Application\FoodFiestaAPI.Application.csproj", "{A35C7BB3-E329-4088-9C6F-00773F8E650D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructre", "Infrastructre", "{651C967E-2824-451B-8E5B-5F43C3FC9A2C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FoodFiesta.Infrastructre", "Infrastructre\FoodFiesta.Infrastructre\FoodFiesta.Infrastructre.csproj", "{D6295591-EEA3-4063-900B-64570D9045FD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FoodFiestaAPI.Persistence", "Infrastructre\FoodFiestaAPI.Persistence\FoodFiestaAPI.Persistence.csproj", "{24391187-88CD-4612-BF42-9E259C2D32B4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{85AF899E-36EF-4E2B-9913-729645A7AC74}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FoodFiestaAPI.API", "Presentation\FoodFiestaAPI.API\FoodFiestaAPI.API.csproj", "{AC14B577-0AB4-41C9-BDC5-CBF9ACAA77D7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{220C1D34-73DF-4841-87BF-82A11AB7B8EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{220C1D34-73DF-4841-87BF-82A11AB7B8EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{220C1D34-73DF-4841-87BF-82A11AB7B8EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{220C1D34-73DF-4841-87BF-82A11AB7B8EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A35C7BB3-E329-4088-9C6F-00773F8E650D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A35C7BB3-E329-4088-9C6F-00773F8E650D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A35C7BB3-E329-4088-9C6F-00773F8E650D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A35C7BB3-E329-4088-9C6F-00773F8E650D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6295591-EEA3-4063-900B-64570D9045FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6295591-EEA3-4063-900B-64570D9045FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6295591-EEA3-4063-900B-64570D9045FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6295591-EEA3-4063-900B-64570D9045FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24391187-88CD-4612-BF42-9E259C2D32B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24391187-88CD-4612-BF42-9E259C2D32B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24391187-88CD-4612-BF42-9E259C2D32B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24391187-88CD-4612-BF42-9E259C2D32B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC14B577-0AB4-41C9-BDC5-CBF9ACAA77D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC14B577-0AB4-41C9-BDC5-CBF9ACAA77D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC14B577-0AB4-41C9-BDC5-CBF9ACAA77D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC14B577-0AB4-41C9-BDC5-CBF9ACAA77D7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{220C1D34-73DF-4841-87BF-82A11AB7B8EA} = {E8CFFD35-6401-480D-8C6C-C3091CB431B7}
+		{A35C7BB3-E329-4088-9C6F-00773F8E650D} = {E8CFFD35-6401-480D-8C6C-C3091CB431B7}
+		{D6295591-EEA3-4063-900B-64570D9045FD} = {651C967E-2824-451B-8E5B-5F43C3FC9A2C}
+		{24391187-88CD-4612-BF42-9E259C2D32B4} = {651C967E-2824-451B-8E5B-5F43C3FC9A2C}
+		{AC14B577-0AB4-41C9-BDC5-CBF9ACAA77D7} = {85AF899E-36EF-4E2B-9913-729645A7AC74}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1949C6B5-A8A1-47A0-A7B1-56B98DCEAEA8}
+	EndGlobalSection
+EndGlobal
